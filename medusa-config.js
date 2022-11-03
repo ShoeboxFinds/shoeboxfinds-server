@@ -56,9 +56,8 @@ const plugins = [
 
 module.exports = {
   projectConfig: {
-    redis_url: redis://default:t8tPfEgRF3AM1B5zOZXX@containers-us-west-21.railway.app:6704,
-    // For more production-like environment install PostgresQL
-    database_url: postgresql://postgres:EEFaHORuADzrUUz91Jx0@containers-us-west-60.railway.app:7140/railway,
+    redis_url: REDIS_URL,
+    database_url: DATABASE_URL,
     database_type: "postgres",
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
