@@ -1780,7 +1780,7 @@ class OrderService extends TransactionBaseService {
       order
     )
 
-    const { returnable_items } = totalsFieldsOrContext ?? {}
+    const { returnable_items } = totalsFieldsOrContext?.includes ?? {}
 
     const returnableItems: LineItem[] | undefined = returnable_items
       ? []
