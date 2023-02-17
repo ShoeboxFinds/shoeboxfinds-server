@@ -549,7 +549,7 @@ export class Order extends BaseEntity {
  *     description: The total of gift cards with taxes
  *     type: integer
  *     example: 0
- *  returnable_items:
+ *   returnable_items:
  *     description: The items that are returnable as part of the order, order swaps or order claims
  *     type: array
  *     items:
